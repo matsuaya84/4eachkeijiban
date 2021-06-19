@@ -1,0 +1,114 @@
+/*header*/
+
+h1 img{
+  width: 300px;
+}
+
+.menu {
+  background-color: black;
+  width: 100%;
+  height: 45px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  line-height: 45px;
+  padding-right: 30px;
+  color: white;
+}
+
+/*main*/
+main {
+  width: 100%;
+}
+.contents_left {
+  float: left;
+  width: 900px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.contents_left h2 {
+  border-left: 5px solid black;
+  border-bottom: 2px solid gray; 
+}
+.input h3{
+ margin: 0 auto;
+ margin-top: 30px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+ border-left: 5px red solid;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 15px;
+}
+.input, .output {
+ margin: 0 auto;
+ background-color: #fbfbfb;
+ border: 3px #ebebeb solid;
+ width: 850px;
+}
+form div {
+ padding: 15px;
+}
+.text, textarea{
+ border: 1px solid #dfdfdf;
+ padding: 5px;
+ color: #999;
+ background: #fff;
+}
+.submit{
+ border:1px solid lightgray;
+ padding: 4px 10px;
+ color: white;
+ background-color: #bfbfbf;
+ border-radius: 5px;
+ border-bottom: solid 2px gray; 
+}
+.output {
+ margin-top: 30px;
+}
+.output h3 {
+ margin: 0 auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+ border-bottom: 2px dotted lightgray;
+}
+.contents {
+ padding: 15px;
+}
+.handlename {
+ padding-top: 10px;
+}
+
+.contents_right {
+  float:left;
+  width: 300px;
+}
+.contents_right h3 {
+  border-bottom: 2px dotted lightgray;
+}
+.contents_right ul {
+  padding-left: 10px;
+}
+.contents_right li {
+  list-style: none;
+  margin: 10px;
+}
+
+/*footer*/
+
+footer {
+  clear: left;
+  background-color: black;
+  width: 100%;
+  height: 45px;
+  
+}
+footer p {
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  font-size:10px; 
+}
